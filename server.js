@@ -17,7 +17,7 @@ var middleware = {
 app.use(middleware.logger);
 
 app.get('/', function (req, res) {
-	res.send('Hello Express');
+	res.send('Hello Express!!');
 });
 
 app.use(express.static(__dirname + '/public'));
